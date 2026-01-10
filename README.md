@@ -17,3 +17,10 @@ Email: telelenker@gmail.com
 Phone: 03152820296 (Pakistan)
 
 ## File Structure
+IoT-Security-TL-System-Voice-Recorder/
+├──app/
+├──.github/
+├──gradle/
+├──build.gradle
+└──README.md
+
