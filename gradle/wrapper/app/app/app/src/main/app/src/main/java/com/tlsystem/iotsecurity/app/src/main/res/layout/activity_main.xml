@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#121212"
+    android:gravity="center">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IoT Security System"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TL System - Voice Recorder"
+        android:textSize="18sp"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to Record"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Timer -->
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp" />
+
+    <!-- File Name -->
+    <TextView
+        android:id="@+id/tv_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File: Not recording"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Control Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="START"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="STOP"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#666666"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- Developer Info -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Muhammad Khalid\nContact: 03152820296"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
